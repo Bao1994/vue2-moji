@@ -15,12 +15,16 @@
 
 # 功能
 API:
-1. [天气api](https://market.aliyun.com/products/57096001/cmapi013828.html?spm=5176.2020520132.101.2.161f7218yckDNl#sku=yuncode782800000)(备注: 该api没提供城市列表接口,每个城市天气都是需要参数城市id，所以没做手机定位和城市选择，暂时写死了城市id-北京市朝阳区) 
+1. [天气api](https://market.aliyun.com/products/57096001/cmapi013828.html?spm=5176.2020520132.101.2.161f7218yckDNl#sku=yuncode782800000)  
 2. [新闻api](https://www.showapi.com/apiGateway/view?apiCode=109)
-
+已实现:
 * 天气：天气实况、今明天气预报、未来一周天气预报、生活指数  
 * 资讯：新闻频道、新闻无限加载、新闻详情、新闻图片预览  
 * 我： 登录、退出登录、个人信息  
+未实现:
+* 定位城市
+* 城市选择
+* 因为天气API没有提供城市列表接口,而获取天气相关数据需要城市id参数,所以暂时写死了城市id-北京朝阳区
 
 # 项目截图
 ![image](http://www.player94.com/github/p1.png)  
