@@ -9,6 +9,9 @@
 6.[IconFont（阿里矢量图标库）](https://www.iconfont.cn/)  
 7.[ES6/7（JS语法）](https://es6.ruanyifeng.com/)  
 
+# 效果演示
+[在线链接](http://www.player94.com/index)（请使用手机模式预览）  
+![](http://www.player94.com/github/code.png)
 
 ## Build Setup
 
