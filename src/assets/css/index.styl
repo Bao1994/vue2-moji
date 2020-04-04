@@ -1,0 +1,26 @@
+// Tip: 该文件在整个项目中全局引入，.vue文件内的<style lang="stylus">可直接使用该文件定义的css变量。
+// 配置目录: /build/utils.js
+$appColor = #1296db // 主色调&选中色调
+$whiteColor = #fff // 白色
+$darkColor = #323232 // 深色
+
+$tabBarHeight = toRem(50) // tabBar高度
+
+// rem转换
+toRem(val) {
+    return (ceil(val / 37.5 * 100) /100)rem
+}
+
+// 水平垂直居中
+flex-center() {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// 单行溢出省略号
+text-ellipsis() {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
