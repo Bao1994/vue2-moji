@@ -11,7 +11,7 @@
 
 # 效果演示
 [在线链接](http://www.player94.com/index)（请使用手机模式预览）  
-![](http://www.player94.com/github/code.png)
+![image](http://www.player94.com/github/code.png)
 
 ## Build Setup
 
