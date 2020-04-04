@@ -41,50 +41,9 @@ API在线链接:
     |   |-- App.vue
     |   |-- main.js
     |   |-- api           // 请求api
-    |   |   |-- base.js
-    |   |   |-- index.js
-    |   |   |-- modules
-    |   |       |-- index
-    |   |       |   |-- index.js
-    |   |       |-- my
-    |   |       |   |-- index.js
-    |   |       |-- news
-    |   |           |-- index.js
     |   |-- assets        // 静态资源              
-    |   |   |-- index.js
-    |   |   |-- css
-    |   |   |   |-- global.styl
-    |   |   |   |-- index.styl
-    |   |   |   |-- reset.css
-    |   |   |-- iconfont
-    |   |   |   |-- iconfont.css
-    |   |   |   |-- iconfont.eot
-    |   |   |   |-- iconfont.js
-    |   |   |   |-- iconfont.svg
-    |   |   |   |-- iconfont.ttf
-    |   |   |   |-- iconfont.woff
-    |   |   |   |-- iconfont.woff2
-    |   |   |-- img
-    |   |       |-- 404.jpeg
-    |   |       |-- expect.jpeg
-    |   |       |-- index-active.svg
-    |   |       |-- index.svg
-    |   |       |-- my-active.svg
-    |   |       |-- my.svg
-    |   |       |-- news-active.svg
-    |   |       |-- news.svg
     |   |-- common        // 全局方法
-    |   |   |-- globalMethod.js
     |   |-- components    // 全局组件
-    |   |   |-- HelloWorld.vue
-    |   |   |-- NewsBanner
-    |   |   |   |-- index.vue
-    |   |   |-- NewsList
-    |   |   |   |-- index.vue
-    |   |   |-- SvgIcon
-    |   |   |   |-- index.vue
-    |   |   |-- TabBar
-    |   |       |-- index.vue
     |   |-- pages         
     |   |   |-- detail    // 新闻详情页
     |   |   |   |-- detail.vue
@@ -101,21 +60,12 @@ API在线链接:
     |   |   |-- news      // 新闻页
     |   |       |-- news.vue
     |   |-- router        // 路由
-    |   |   |-- index.js
-    |   |   |-- modules
-    |   |       |-- index.js
-    |   |       |-- my.js
-    |   |       |-- news.js
     |   |-- store         // 状态管理
-    |   |   |-- index.js
-    |   |   |-- modules
-    |   |       |-- userInfo.js
     |   |-- utils         // 工具类
-    |       |-- request.js
 ``` 
 
 
-## Build Setup
+# 开发和发布
 
 ``` bash
 # install dependencies
