@@ -1,13 +1,13 @@
 # vue2-moji-master
 # 技术栈  
-1.[vue](https://cn.vuejs.org/v2/guide/)、[vue-router](https://router.vuejs.org/zh/guide/)、[vuex](https://vuex.vuejs.org/zh/)  
-2.[axios（请求库）](https://github.com/axios/axios)  
-3.[vant（移动端 Vue 组件库）](https://youzan.github.io/vant/#/zh-CN/)  
-4.[v-chart（基于 Vue2.0 和 ECharts 封装的图表组件）](https://v-charts.js.org/#/)  
-4.[amfe-flexible（淘宝适配库）](https://github.com/amfe/lib-flexible)  
-5.[Stylus（css预处理器）](https://stylus-lang.com/)  
-6.[IconFont（阿里矢量图标库）](https://www.iconfont.cn/)  
-7.[ES6/7（JS语法）](https://es6.ruanyifeng.com/)  
+1. [vue](https://cn.vuejs.org/v2/guide/)、[vue-router](https://router.vuejs.org/zh/guide/)、[vuex](https://vuex.vuejs.org/zh/)  
+2. [axios（请求库）](https://github.com/axios/axios)  
+3. [vant（移动端 Vue 组件库）](https://youzan.github.io/vant/#/zh-CN/)  
+4. [v-chart（基于 Vue2.0 和 ECharts 封装的图表组件）](https://v-charts.js.org/#/)  
+4. [amfe-flexible（淘宝适配库）](https://github.com/amfe/lib-flexible)  
+5. [Stylus（css预处理器）](https://stylus-lang.com/)  
+6. [IconFont（阿里矢量图标库）](https://www.iconfont.cn/)  
+7. [ES6/7（JS语法）](https://es6.ruanyifeng.com/)  
 
 # 效果演示
 [在线链接](http://www.player94.com/index)（请使用手机模式预览）  
