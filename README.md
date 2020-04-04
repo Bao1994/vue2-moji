@@ -14,9 +14,10 @@
 ![image](http://www.player94.com/github/code.png)
 
 # 功能
-API:
+API在线链接:
 1. [天气api](https://market.aliyun.com/products/57096001/cmapi013828.html?spm=5176.2020520132.101.2.161f7218yckDNl#sku=yuncode782800000)  
-2. [新闻api](https://www.showapi.com/apiGateway/view?apiCode=109)
+2. [新闻api](https://www.showapi.com/apiGateway/view?apiCode=109)  
+
 已实现:
 * 天气：天气实况、今明天气预报、未来一周天气预报、生活指数  
 * 资讯：新闻频道、新闻无限加载、新闻详情、新闻图片预览  
@@ -33,6 +34,85 @@ API:
 ![image](http://www.player94.com/github/p4.png)  
 ![image](http://www.player94.com/github/p5.png)  
 ![image](http://www.player94.com/github/p6.png) 
+
+# 目录结构
+` `` 
+|-- src
+    |   |-- App.vue
+    |   |-- main.js
+    |   |-- api           // 请求api
+    |   |   |-- base.js
+    |   |   |-- index.js
+    |   |   |-- modules
+    |   |       |-- index
+    |   |       |   |-- index.js
+    |   |       |-- my
+    |   |       |   |-- index.js
+    |   |       |-- news
+    |   |           |-- index.js
+    |   |-- assets        // 静态资源              
+    |   |   |-- index.js
+    |   |   |-- css
+    |   |   |   |-- global.styl
+    |   |   |   |-- index.styl
+    |   |   |   |-- reset.css
+    |   |   |-- iconfont
+    |   |   |   |-- iconfont.css
+    |   |   |   |-- iconfont.eot
+    |   |   |   |-- iconfont.js
+    |   |   |   |-- iconfont.svg
+    |   |   |   |-- iconfont.ttf
+    |   |   |   |-- iconfont.woff
+    |   |   |   |-- iconfont.woff2
+    |   |   |-- img
+    |   |       |-- 404.jpeg
+    |   |       |-- expect.jpeg
+    |   |       |-- index-active.svg
+    |   |       |-- index.svg
+    |   |       |-- my-active.svg
+    |   |       |-- my.svg
+    |   |       |-- news-active.svg
+    |   |       |-- news.svg
+    |   |-- common        // 全局方法
+    |   |   |-- globalMethod.js
+    |   |-- components    // 全局组件
+    |   |   |-- HelloWorld.vue
+    |   |   |-- NewsBanner
+    |   |   |   |-- index.vue
+    |   |   |-- NewsList
+    |   |   |   |-- index.vue
+    |   |   |-- SvgIcon
+    |   |   |   |-- index.vue
+    |   |   |-- TabBar
+    |   |       |-- index.vue
+    |   |-- pages         
+    |   |   |-- detail    // 新闻详情页
+    |   |   |   |-- detail.vue
+    |   |   |-- error     // 404页
+    |   |   |   |-- error.vue
+    |   |   |-- helper    // 待完工页
+    |   |   |   |-- helper.vue
+    |   |   |-- index     // 首页
+    |   |   |   |-- index.vue
+    |   |   |-- login     // 登录页
+    |   |   |   |-- login.vue
+    |   |   |-- my        // 我的页
+    |   |   |   |-- my.vue
+    |   |   |-- news      // 新闻页
+    |   |       |-- news.vue
+    |   |-- router        // 路由
+    |   |   |-- index.js
+    |   |   |-- modules
+    |   |       |-- index.js
+    |   |       |-- my.js
+    |   |       |-- news.js
+    |   |-- store         // 状态管理
+    |   |   |-- index.js
+    |   |   |-- modules
+    |   |       |-- userInfo.js
+    |   |-- utils         // 工具类
+    |       |-- request.js
+` `` 
 
 
 ## Build Setup
