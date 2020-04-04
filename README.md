@@ -36,7 +36,7 @@ API在线链接:
 ![image](http://www.player94.com/github/p6.png) 
 
 # 目录结构
-` `` 
+```
 |-- src
     |   |-- App.vue
     |   |-- main.js
@@ -112,7 +112,7 @@ API在线链接:
     |   |       |-- userInfo.js
     |   |-- utils         // 工具类
     |       |-- request.js
-` `` 
+``` 
 
 
 ## Build Setup
