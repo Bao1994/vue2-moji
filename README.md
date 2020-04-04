@@ -15,9 +15,16 @@
 
 # 功能
 * 天气：天气实况、今明天气预报、未来一周天气预报、生活指数  
-* 资讯：新闻频道、新闻列表、新闻详情、新闻图片预览  
+* 资讯：新闻频道、新闻无限加载、新闻详情、新闻图片预览  
 * 我： 登录、退出登录、个人信息  
 
+# 项目截图
+![image](http://www.player94.com/github/p1.png)  
+![image](http://www.player94.com/github/p2.png)  
+![image](http://www.player94.com/github/p3.png)  
+![image](http://www.player94.com/github/p4.png)  
+![image](http://www.player94.com/github/p5.png)  
+![image](http://www.player94.com/github/p6.png) 
 
 
 ## Build Setup
