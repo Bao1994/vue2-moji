@@ -1,4 +1,4 @@
-# vue2-moji
+# vue2-moji-bao
 # 技术栈  
 1. [vue](https://cn.vuejs.org/v2/guide/)、[vue-router](https://router.vuejs.org/zh/guide/)、[vuex](https://vuex.vuejs.org/zh/)  
 2. [axios（请求库）](https://github.com/axios/axios)  
